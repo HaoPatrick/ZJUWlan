@@ -130,6 +130,12 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoConnect\AutoConnect.csproj">
+      <Project>{4598ce8f-6a80-44c9-9ec5-14f9728e8ca0}</Project>
+      <Name>AutoConnect</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

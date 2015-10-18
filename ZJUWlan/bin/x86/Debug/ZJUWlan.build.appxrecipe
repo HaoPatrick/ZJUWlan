@@ -48,6 +48,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Debug\Core\AutoConnect.winmd">
+      <PackagePath>AutoConnect.winmd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
     </AppxPackagedFile>

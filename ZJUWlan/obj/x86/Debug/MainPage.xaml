@@ -7,16 +7,47 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:ConnectionId='1' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="2,0,0,0"                     >
-        <Button x:ConnectionId='2' x:Name="button" Content="登陆" HorizontalAlignment="Left" Margin="86,274,0,0" VerticalAlignment="Top" Height="34" Width="104"                     />
-        <TextBox x:ConnectionId='3' x:Name="textBox" HorizontalAlignment="Left" Margin="86,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="229" Height="30"/>
-        <TextBox x:ConnectionId='4' x:Name="textBox1" HorizontalAlignment="Left" Margin="22,350,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="229" Height="30"/>
-        <TextBlock x:ConnectionId='5' x:Name="textBlock" HorizontalAlignment="Left" Margin="22,155,0,0" TextWrapping="Wrap" Text="账号：" VerticalAlignment="Top" Height="19" Width="58"/>
-        <TextBlock x:ConnectionId='6' x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="22,203,0,0" TextWrapping="Wrap" Text="密码：" VerticalAlignment="Top" Height="19" Width="58"/>
-        <CheckBox x:ConnectionId='7' x:Name="checkBox" Content="保存密码" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="86,236,0,0" Height="30" Width="158" IsChecked="True"/>
-        <Button x:ConnectionId='8' x:Name="button_Copy" Content="注销" HorizontalAlignment="Left" Margin="211,274,0,0" VerticalAlignment="Top" Height="34" Width="104"                          />
-        <TextBlock x:ConnectionId='9' x:Name="textBlock1" HorizontalAlignment="Left" Margin="22,89,0,0" TextWrapping="Wrap" Text="一键登录浙江大学Wlan" VerticalAlignment="Top" FontSize="29.333"/>
-        <PasswordBox x:ConnectionId='10' x:Name="passwordBox" HorizontalAlignment="Left" Margin="86,199,0,0" VerticalAlignment="Top" Width="229"/>
+    <Grid x:ConnectionId='1' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="2,0,0,10"                      Height="587" VerticalAlignment="Bottom">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:ConnectionId='2' x:Name="wideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="641" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='3' x:Name="narrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="inputPanel.Orientation" Value="Vertical"/>
+                        <Setter Target="inputButton.Margin" Value="0,4,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+
+        <Button x:ConnectionId='4' x:Name="button" Content="登陆" HorizontalAlignment="Left" Margin="86,274,0,0" VerticalAlignment="Top" Height="34" Width="104"                     />
+        <TextBox x:ConnectionId='5' x:Name="textBox" HorizontalAlignment="Left" Margin="86,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="229" Height="30"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock" HorizontalAlignment="Left" Margin="22,155,0,0" TextWrapping="Wrap" Text="账号：" VerticalAlignment="Top" Height="19" Width="58"/>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="22,203,0,0" TextWrapping="Wrap" Text="密码：" VerticalAlignment="Top" Height="19" Width="58"/>
+        <CheckBox x:ConnectionId='8' x:Name="checkBox" Content="保存密码" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="86,236,0,0" Height="30" Width="158" IsChecked="True"/>
+        <Button x:ConnectionId='9' x:Name="button_Copy" Content="注销" HorizontalAlignment="Left" Margin="211,274,0,0" VerticalAlignment="Top" Height="34" Width="104"                          />
+        <TextBlock x:ConnectionId='10' x:Name="textBlock1" HorizontalAlignment="Left" Margin="86,101,0,0" TextWrapping="Wrap" Text="浙江大学Wlan" VerticalAlignment="Top" FontSize="29.333"/>
+        <PasswordBox x:ConnectionId='11' x:Name="passwordBox" HorizontalAlignment="Left" Margin="86,199,0,0" VerticalAlignment="Top" Width="229" PasswordRevealMode ="Peek "/>
+
+        <Button x:ConnectionId='12' x:Name="button1" Content="后台运行（beta）" HorizontalAlignment="Left" Margin="86,399,0,0" VerticalAlignment="Top"                       Width="229"/>
+        <Grid HorizontalAlignment="Left" Height="101" Margin="67,320,0,0" VerticalAlignment="Top" Width="248">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:ConnectionId='13' x:Name="textBlock2" HorizontalAlignment="Left" Margin="39,16,0,0" TextWrapping="Wrap" Text="Wifi Statue:" VerticalAlignment="Top"/>
+            <TextBlock x:ConnectionId='14' x:Name="wificonn_textblock" HorizontalAlignment="Left" Margin="136,16,0,0" TextWrapping="Wrap" Text="Connected" VerticalAlignment="Top"/>
+            <TextBlock x:ConnectionId='15' x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="39,41,0,0" TextWrapping="Wrap" Text="Wifi Profile:" VerticalAlignment="Top"/>
+            <TextBlock x:ConnectionId='16' x:Name="wifiProfil_txtblock" HorizontalAlignment="Left" Margin="136,41,0,0" TextWrapping="Wrap" Text="ZJUWLAN" VerticalAlignment="Top"/>
+            <Border BorderBrush="Black" BorderThickness="1" Height="58" VerticalAlignment="Top" Margin="19,9,-1,0" HorizontalAlignment="Left" Width="230"/>
+        </Grid>
 
     </Grid>
 </Page>
