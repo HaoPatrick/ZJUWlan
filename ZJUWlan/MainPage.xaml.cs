@@ -143,8 +143,11 @@ namespace ZJUWlan
         {
             string info = string.Empty;
             info = await ReadFile();
-            textBox.Text = info.Substring(0, info.IndexOf("\r\n", StringComparison.Ordinal));
-            passwordBox.Password = info.Substring(info.IndexOf("\r\n", StringComparison.Ordinal) + 2, info.Length - (info.IndexOf("\r\n", StringComparison.Ordinal) + 2));
+            if (info != string.Empty)
+            {
+                textBox.Text = info.Substring(0, info.IndexOf("\r\n", StringComparison.Ordinal));
+                passwordBox.Password = info.Substring(info.IndexOf("\r\n", StringComparison.Ordinal) + 2, info.Length - (info.IndexOf("\r\n", StringComparison.Ordinal) + 2));
+            }
             GetWifiInfo();
         }
         ConnectionProfile wifiInfo = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
@@ -169,5 +172,10 @@ namespace ZJUWlan
         {
             background();
         }
+
+   
+
+
+
     }
 }

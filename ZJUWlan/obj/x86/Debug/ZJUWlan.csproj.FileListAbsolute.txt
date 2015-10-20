@@ -441,3 +441,9 @@ E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Debug\AutoConnect.pdb
 E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Debug\AutoConnect.pri
 E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Debug\Core\AutoConnect.pdb
 E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Debug\Core\AutoConnect.winmd
+E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Debug\Core\ForBundle\AppxManifest.xml
+E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Debug\Wlan.xbf
+E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Debug\Wlan.g.i.cs
+E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Debug\Wlan.g.cs
+E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Debug\Wlan.xaml
+E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Debug\Wlan.xbf

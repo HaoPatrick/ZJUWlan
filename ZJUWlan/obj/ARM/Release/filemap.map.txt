@@ -1,0 +1,18 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\filemap.pri"			"resources.pri"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\ZJUWlan.exe"			"ZJUWlan.exe"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\ZJUWlan.dll"			"ZJUWlan.dll"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\ClrCompression.dll"			"ClrCompression.dll"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\AutoConnect.winmd"			"AutoConnect.winmd"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\ApplicationInsights.config"			"ApplicationInsights.config"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\Wide310x150Logo.scale-200.png"			"Assets\Wide310x150Logo.scale-200.png"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\StoreLogo.png"			"Assets\StoreLogo.png"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\Square44x44Logo.targetsize-24_altform-unplated.png"			"Assets\Square44x44Logo.targetsize-24_altform-unplated.png"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\Square44x44Logo.scale-200.png"			"Assets\Square44x44Logo.scale-200.png"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
+"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"

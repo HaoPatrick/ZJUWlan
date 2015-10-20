@@ -1,0 +1,2 @@
+E:\C#project\ZJUWlan\AutoConnect\AutoConnect.csproj;x64
+E:\C#project\ZJUWlan\ZJUWlan\ZJUWlan.csproj;x64
