@@ -1,8 +1,0 @@
-/out:"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\ilc\intermediate\SgGenerated\\"
-/int:"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\ilc\intermediate\\"
-/ref:"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\ilc\intermediate\PreMergeILTransformed\\"
-/ref:"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\ilc\in\\"
-/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\ARM\ilc\lib\Private\\"
-/ref:"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\ilc\in\\"
-/ref:"E:\C#project\ZJUWlan\ZJUWlan\obj\ARM\Release\ilc\in\WinMetadata\\"
-/ca:System.Private.CoreLib

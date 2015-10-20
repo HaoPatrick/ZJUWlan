@@ -1,9 +1,0 @@
-/ignoreAccessChecks
-/metadataFile "E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Release\ilc\intermediate\ILTransformed\ZJUWlan.metadata"
-/gvmAssemblyName "System.Private.CoreLib"
-/o
-/sharedGenerics
-/ilmergeinfo "E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Release\ilc\intermediate\ILTransformed\ZJUWlan.csv"
-/sharedGenericsMode StandardHeuristics
-/in "E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Release\ilc\intermediate\ILTransformed\ZJUWlan.ilexe"
-/out "E:\C#project\ZJUWlan\ZJUWlan\obj\x86\Release\ilc\intermediate\MDIL\ZJUWlan.mdilexe"
