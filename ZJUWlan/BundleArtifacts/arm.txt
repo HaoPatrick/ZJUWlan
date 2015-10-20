@@ -1,1 +1,0 @@
-MainPackage=E:\C#project\ZJUWlan\ZJUWlan\bin\ARM\Release\ZJUWlan_1.0.1.0_ARM.appx

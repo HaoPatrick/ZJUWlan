@@ -1,1 +1,0 @@
-MainPackage=E:\C#project\ZJUWlan\ZJUWlan\bin\x86\Release\ZJUWlan_1.0.1.0_x86.appx
